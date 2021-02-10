@@ -29,3 +29,10 @@ export default function IndexPage(props) {
     </div>
   )
 }
+
+export async function getStaticProps() {
+
+  return {
+    props: {},
+  }
+}
